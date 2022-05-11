@@ -70,7 +70,7 @@ public class Libfoo : ModuleRules
 		
 		if (Target.Platform == UnrealTargetPlatform.Win64)
 		{
-			PublicAdditionalLibraries.Add(Path.Combine(ModuleDirectory, "source", "target", "release", "libfoo.lib"));
+			PublicAdditionalLibraries.Add(Path.Combine(ModuleDirectory, "source", "target", "release", "foo.lib"));
 		}
 
 		if (Target.Platform == UnrealTargetPlatform.Mac)
