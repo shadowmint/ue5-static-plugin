@@ -47,11 +47,7 @@ If you're on a mac, you should ensure that have have a matching architecture ins
 
 There's a map in the content folder with an example.
 
-## How does it work?
-
-That's it.
-
-### Notes
+## Notes
 
 Unreal doesn't support apple silicon; for rust we use:
 
